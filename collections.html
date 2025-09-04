@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">LE SSERAFIM</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="/Albums.html" class="navbar__links">Albums</a></li>
+                <li class="navbar__btn"><a href="/collections.html" class="button">Collection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Collection Section -->
+    <div class="collection-page">
+        <div class="collection-item">
+            <img src="antifragile.jpg" alt="Album 1">
+            <div class="item-details">
+                <p class="item-title">Album Title 1</p>
+                <p class="item-price">$19.99</p>
+                <a href="#" class="button">Add to Cart</a>
+            </div>
+        </div>
+        <div class="collection-item">
+            <img src="perfect night.jpg" alt="Album 2">
+            <div class="item-details">
+                <p class="item-title">Album Title 2</p>
+                <p class="item-price">$24.99</p>
+                <a href="#" class="button">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('.navbar__menu');
+        mobileMenu.addEventListener('click', () => navMenu.classList.toggle('active'));
+    </script> -->
+</body>
+</html>
